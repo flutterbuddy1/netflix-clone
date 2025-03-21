@@ -1,0 +1,69 @@
+body {
+  font-family: sans-serif;
+  background-color: #141414;
+  color: #fff;
+  margin: 0;
+}
+
+.search-bar {
+  background-color: #222;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.movie-item {
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.movie-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.banner-slider {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.banner-slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.movie-details {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
