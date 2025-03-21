@@ -24,7 +24,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
         placeholder="Search for a movie..."
         value={query}
         onChange={handleInputChange}
-        className="w-96"
+        className="w-96 text-black"
       />
       <Button onClick={handleSearch} className="ml-2">Search</Button>
     </div>
